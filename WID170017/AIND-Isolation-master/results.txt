@@ -1,0 +1,18 @@
+*********
+Evaluating: WID170017_Implementation
+*********
+
+Playing Matches:
+----------
+  Match 1: 	WID170017_Implementation  vs      Random		Result: 65 to 15
+  Match 2: 	WID170017_Implementation  vs      MM_Null            	Result: 59 to 21
+  Match 3: 	WID170017_Implementation  vs      MM_Open          	Result: 42 to 38
+  Match 4: 	WID170017_Implementation  vs  MM_Improved      	Result: 34 to 46
+  Match 5: 	WID170017_Implementation  vs      AB_Null              	Result: 50 to 30
+  Match 6: 	WID170017_Implementation  vs      AB_Open           	Result: 46 to 34
+  Match 7: 	WID170017_Implementation  vs  AB_Improved       	Result: 37 to 43
+
+
+Results:
+----------
+WID170017_Implementation     59.46%
