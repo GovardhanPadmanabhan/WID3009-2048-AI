@@ -28,14 +28,13 @@ public class GameManager : MonoBehaviour {
 		Camera.main.clearFlags = CameraClearFlags.Skybox;
 		Camera.main.rect = new Rect(0f, 0f, 1f, 1f);
 		mazeInstance = Instantiate(mazePrefab) as Maze;
-		IntVector2 startCoordinate = mazeInstance.RandomCoordinates;
-		yield return StartCoroutine(mazeInstance.Generate(startCoordinate));
+		yield return StartCoroutine(mazeInstance.Generate());
 		playerInstance = Instantiate(playerPrefab) as Player;
-		playerInstance.SetLocation(mazeInstance.GetCell(startCoordinate));
+		playerInstance.SetLocation(mazeInstance.GetCell(mazeInstance.RandomCoordinates));
 		Camera.main.clearFlags = CameraClearFlags.Depth;
 		Camera.main.rect = new Rect(0f, 0f, 0.5f, 0.5f);
 		
-		write_eval_csv(mazeInstance.GetDeadEnds());
+		write_eval_csv(mazeInstance.GetDeadEnds(), mazeInstance.GetGenerationTime());
 	}
 
 	private void RestartGame () {
@@ -47,12 +46,12 @@ public class GameManager : MonoBehaviour {
 		StartCoroutine(BeginGame());
 	}
 
-	public void write_eval_csv (int total_dead_ends) {
+	public void write_eval_csv (int total_dead_ends, decimal time_in_ms) {
         var csv = new StringBuilder();
-        var results = string.Format("{0}", total_dead_ends);
+        var results = string.Format("{0}, {1}", total_dead_ends, time_in_ms);
         csv.AppendLine(results);
 
-        string path = @"Evaluation Results.csv";
+        string path = @"Evaluation Score.csv";
 
         File.WriteAllText(path, csv.ToString());
     }

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using static System.Math;
 
 public class Maze : MonoBehaviour {
 
@@ -26,6 +25,8 @@ public class Maze : MonoBehaviour {
 
 	private List<MazeRoom> rooms = new List<MazeRoom>();
 
+	private decimal end_time, start_time;
+
 	public IntVector2 RandomCoordinates {
 		get {
 			return new IntVector2(Random.Range(0, size.x), Random.Range(0, size.z));
@@ -40,7 +41,8 @@ public class Maze : MonoBehaviour {
 		return cells[coordinates.x, coordinates.z];
 	}
 
-	public IEnumerator Generate (IntVector2 coordinates) {
+	public IEnumerator Generate () {
+		start_time = System.DateTime.Now.Ticks / (decimal)System.TimeSpan.TicksPerMillisecond;
 		WaitForSeconds delay = new WaitForSeconds(generationStepDelay);
 		cells = new MazeCell[size.x, size.z];
 		List<MazeCell> activeCells = new List<MazeCell>();
@@ -52,6 +54,7 @@ public class Maze : MonoBehaviour {
 		for (int i = 0; i < rooms.Count; i++) {
 			rooms[i].Hide();
 		}
+		end_time = System.DateTime.Now.Ticks / (decimal)System.TimeSpan.TicksPerMillisecond;
 	}
 
 	private void DoFirstGenerationStep (List<MazeCell> activeCells) {
@@ -157,4 +160,8 @@ public class Maze : MonoBehaviour {
 
 		return total_dead_ends;
     }
+
+	public decimal GetGenerationTime () {
+		return end_time - start_time;
+	}
 }
