@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:renovate" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2af20a8b-8a0a-4f36-ad01-5789e058cb20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/HumanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/IndividualGhostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/KeyBoardInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/MASController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/PacmanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/AggressiveGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/DudGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/Legacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/Legacy2TheReckoning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/NearestPillPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/NearestPillPacManVS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RandomGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RandomNonRevPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RandomPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RevampedPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RevampedTreePacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/StarterGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/StarterPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/po/POCommGhost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/po/POCommGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/po/POGhost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/po/POGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/controllers/examples/po/POPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/Blinky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/Inky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/Pinky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/Sue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/pwillic/Blinky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/pwillic/Inky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/pwillic/POCommGhost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/pwillic/Pinky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghostMAS/pwillic/Sue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/ghosts/MyGhosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/entries/pacman/MyPacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/comms/BasicMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/comms/BasicMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/comms/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/comms/MessageUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/comms/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/info/GameInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/AStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/Ghost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/POType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/PacMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/internal/PathsCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/util/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/util/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/game/util/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/ExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/ForwardImprovedModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/ForwardModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/GameViewLocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/GhostJunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/GhostPOComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/GhostViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/GraphicsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/POPacManTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/test/ScaleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/BuildClusterFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/LocEvalPacMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/NNTrainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/NeuralNet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/NeuralPacMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/examples/NNLocPacMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/examples/NNPacMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/StarterNNPacMan/examples/SimpleNNLocPacMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/demo/DemoPacMan.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jsRIYAQmDjLymqoj0IFC4IPoyb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pacman.controllers.examples" />
+      <recent name="pacman.controllers.examples.po" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MsPacman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af20a8b-8a0a-4f36-ad01-5789e058cb20" name="Default Changelist" comment="" />
+      <created>1604590733913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604590733913</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1014" height="198" key="GridCell.Tab.0.bottom" timestamp="1604855952204">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1014" height="198" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1604855952204" />
+    <state width="1043" height="198" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1604855371803" />
+    <state width="1043" height="198" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1604855016616" />
+    <state width="1225" height="199" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1604853982535" />
+    <state width="1057" height="199" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1604593756916" />
+    <state width="1057" height="199" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1604592095768" />
+    <state width="1014" height="198" key="GridCell.Tab.0.center" timestamp="1604855952203">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1014" height="198" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1604855952203" />
+    <state width="1043" height="198" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1604855371802" />
+    <state width="1043" height="198" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1604855016614" />
+    <state width="1225" height="199" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1604853982534" />
+    <state width="1057" height="199" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1604593756915" />
+    <state width="1057" height="199" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1604592095767" />
+    <state width="1014" height="198" key="GridCell.Tab.0.left" timestamp="1604855952202">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1014" height="198" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1604855952202" />
+    <state width="1043" height="198" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1604855371802" />
+    <state width="1043" height="198" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1604855016613" />
+    <state width="1225" height="199" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1604853982533" />
+    <state width="1057" height="199" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1604593756915" />
+    <state width="1057" height="199" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1604592095767" />
+    <state width="1014" height="198" key="GridCell.Tab.0.right" timestamp="1604855952203">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1014" height="198" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1604855952203" />
+    <state width="1043" height="198" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1604855371802" />
+    <state width="1043" height="198" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1604855016615" />
+    <state width="1225" height="199" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1604853982534" />
+    <state width="1057" height="199" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1604593756916" />
+    <state width="1057" height="199" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1604592095767" />
+    <state x="608" y="169" width="598" height="490" key="find.popup" timestamp="1604591768274">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="608" y="169" width="598" height="490" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1604591768274" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pacman/controllers/examples/RevampedPacMan.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
