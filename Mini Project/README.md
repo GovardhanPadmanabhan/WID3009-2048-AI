@@ -32,6 +32,6 @@ For Selenium to run the browser, the Chrome web driver is needed, which can be d
 
 
 To run the program, just have to run the entire notebooks. The game will show up in a new chrome window pop-up, and will automatically start playing the game.
-
+  
 `2048 AI (with a-b pruning).ipynb` notebook implements the minimax algorithm for 2048 with a-b pruning  
 `2048 AI (without a-b pruning).ipynb` notebook implements the minimax algorithm for 2048 without a-b pruning
